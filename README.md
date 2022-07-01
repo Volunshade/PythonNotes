@@ -15,11 +15,13 @@ dir - Will tell you what you can do.
 
 tuples are the same as lists but you can't tell it to change a value of a position
 
+```python
 x = [1,2,3,4,5]
 id(x)
 472
 
 x += [6,7,8]
+```
 
 type - Will tell you what that object is
 
@@ -31,11 +33,13 @@ len - tells you the lenght of an int
 
 Sets:
 
+```python
 x = {1,2,3,4,5}
 type (x)
+```
 
 Set is the fast data stucture in python, since it is not indexable there is no gurantee that the data will return in order. It is unordered. 
 
 Sets are unique
 
-When you set a list or tuple you are removing the duplicate values (if there are any) of the same type. IE [1,2,3,4,5[1,2,3],[1,2,3,4]] <- Contains multiple lists. If you try to Set this it will not allow it due to it being unhashable
+When you set a list or tuple you are removing the duplicate values (if there are any) of the same type. IE `[1,2,3,4,5[1,2,3],[1,2,3,4]` <- Contains multiple lists. If you try to Set this it will not allow it due to it being unhashable
