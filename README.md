@@ -365,3 +365,27 @@ for key, value in student.items():
 
  Results this will print out the key and values for each key. 
 
+## Builtins
+
+Two ways to sort.
+
+1. sorted method doesn't replace the original values and returns the sorted copy
+
+```python
+
+x = [3, 1, 2]
+
+y = sorted(x)
+
+```
+
+2. .sort replaces the original values.
+
+```python
+
+x = [3, 1, 2]
+
+y = .sort(x)
+
+```
+
